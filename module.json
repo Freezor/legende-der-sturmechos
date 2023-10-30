@@ -1,0 +1,182 @@
+{
+  "id": "legende-der-sturmechos",
+  "title": "Legende der Sturmechos",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "freezors-additional-damage-types",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "freezors-dandd-conditions-improvements",
+        "type": "module"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "perikles-buch-der-krieger",
+        "type": "module"
+      },
+      {
+        "id": "midi-qol",
+        "type": "module"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Freezor",
+      "url": "https://github.com/Freezor"
+    }
+  ],
+  "scripts": [
+    "scripts/setup.js"
+  ],
+  "packs": [
+    {
+      "name": "pack-1",
+      "label": "LdS-Hintergrümde",
+      "path": "packs/pack-1",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-items",
+      "label": "LdS-Items",
+      "path": "packs/lds-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-klassen",
+      "label": "LdS-Klassen",
+      "path": "packs/lds-klassen",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-klassenmerkmale",
+      "label": "LdS-Klassenmerkmale",
+      "path": "packs/lds-klassenmerkmale",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-unterklassen",
+      "label": "LdS-Unterklassen",
+      "path": "packs/lds-unterklassen",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-zauber",
+      "label": "LdS-Zauber",
+      "path": "packs/lds-zauber",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-rassen",
+      "label": "LdS-Rassen",
+      "path": "packs/lds-rassen",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-rassenmerkmale",
+      "label": "LdS-Rassenmerkmale",
+      "path": "packs/lds-rassenmerkmale",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-talente",
+      "label": "LdS-Talente",
+      "path": "packs/lds-talente",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-monster",
+      "label": "LdS-Monster",
+      "path": "packs/lds-monster",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-regeln",
+      "label": "LdS-Regeln",
+      "path": "packs/lds-regeln",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lds-sturmecho-merkmale",
+      "label": "LdS-Sturmecho Merkmale",
+      "path": "packs/lds-sturmecho-merkmale",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
